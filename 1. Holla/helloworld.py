@@ -7,13 +7,13 @@ if __name__ == '__main__':
     print_name("pythonista")
 
 """
-This is a docstring
-Not a multi-line comment
-docstrings are used to document your code
-mainly used for documentation purposes
-python doesn't allow multi-line comments
-comments are ignored by the interpreter
-docstrings are processed by the interpreter
+    This is a docstring
+    Not a multi-line comment
+    docstrings are used to document your code
+    mainly used for documentation purposes
+    python doesn't allow multi-line comments
+    comments are ignored by the interpreter
+    docstrings are processed by the interpreter
 """
 
 # Naming conventions of python: snake_case

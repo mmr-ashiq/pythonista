@@ -46,7 +46,7 @@ s = set([1, 2, 4, 'Set', True])
 print(type(s))  # <class 'Set'>
 
 se_t = {10, 20, 30, 40, 50}
-print(type(se_t)) # <class 'Set'>
+print(type(se_t))  # <class 'Set'>
 
 """
     Set is a collection of unique elements (distinct keys).
@@ -68,10 +68,10 @@ print(type(se_t)) # <class 'Set'>
 """
 
 d = dict(a=1, b=2, c=3)
-print(type(d)) # <class 'Dict'>
+print(type(d))  # <class 'Dict'>
 
-dic = {'a':1, 'b':2, 'c':3}
-print(type(dic)) # <class 'Dict'>
+dic = {'a': 1, 'b': 2, 'c': 3}
+print(type(dic))  # <class 'Dict'>
 
 """
     Dictionary is a collection of key-value pairs.

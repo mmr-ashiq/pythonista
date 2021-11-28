@@ -16,11 +16,11 @@ print(id(y))  # 1712033458736
 
 m = 69
 n = 69
-print (m is n)  # True
+print(m is n)  # True
 # is operator gives True if both the variables are pointing to same object.
 
 
 u = m
-print(u is n) # True
-u = 2 # when we assign 2 into u, it will create a new object.
-print(u is n) # False
+print(u is n)  # True
+u = 2  # when we assign 2 into u, it will create a new object.
+print(u is n)  # False

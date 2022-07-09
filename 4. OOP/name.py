@@ -17,5 +17,5 @@ class Person:
 first_person = Person("jhon", "", "")
 print(first_person.get_name())
 
-second_person = Person("Jane", 1980, 60)
-print(second_person.get_summary())
+second_person = Person("Jane")
+print(second_person.get_name())

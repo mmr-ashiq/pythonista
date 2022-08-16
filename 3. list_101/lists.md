@@ -1,0 +1,6 @@
+- List is one of the Sequence Data structure.
+- List internally use array data structure.
+- Lists are collection of items (Strings, Integers, Floats, etc).
+- Lists are enclosed in [].
+- Each item in the list has an assigned index value.
+- lists are mutable, which means they can be changed.

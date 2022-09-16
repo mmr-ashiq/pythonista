@@ -8,13 +8,17 @@
 #     return result
 #     # O(n^2)
 
-def remove_duplicates(l):
-    result = {}
+# def remove_duplicates(l):
+#     result = {}
 
-    for value in l:
-        if value not in result:
-            result[value] = l
-    return list(result.keys())
+#     for value in l:
+#         if value not in result:
+#             result[value] = l
+#     return list(result.keys())
+#     # O(1)
+
+def remove_duplicates(l):
+    return list(set(l))
     # O(1)
 
 print(remove_duplicates([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]))

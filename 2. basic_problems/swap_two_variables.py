@@ -25,7 +25,7 @@ def swap_two_variables_using_temp(a, b):
     return a, b
 
 
-# function to swap two variables --> Mordern Approach
+# function to swap two variables --> Modern Approach
 def swap_two_variables(a, b):
     a, b = b, a
     return a, b

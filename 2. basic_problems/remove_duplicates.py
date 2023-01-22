@@ -21,4 +21,5 @@ def remove_duplicates(l):
     return list(set(l))
     # O(1)
 
+
 print(remove_duplicates([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]))

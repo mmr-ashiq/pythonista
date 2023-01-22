@@ -15,6 +15,7 @@ def get_smaller(list, value):
     else:
         return [x for x in list if x < value]
 
+
 if __name__ == '__main__':
     list1 = []
     print(get_smaller(list1, 5))

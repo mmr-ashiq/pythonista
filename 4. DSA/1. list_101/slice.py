@@ -44,6 +44,6 @@ print(list2 is list3)  # False
 print(tuple1 is tuple2)  # True
 print(string1 is string2)  # True
 
-# in list slicing, we alwasys get different list as output.
-# in tuple/string slicing, we alwasys get same tuple/string as output.
+# in list slicing, we always get different list as output.
+# in tuple/string slicing, we always get same tuple/string as output.
 # in tuple/string python return references to the same tuple/string.

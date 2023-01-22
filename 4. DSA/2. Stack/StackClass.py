@@ -7,12 +7,12 @@ class Stack:
 
     def pop(self):
         return self.items.pop()
-    
+
     def isEmpty(self):
         if self.items == []:
             return True
         return False
-    
+
 
 if __name__ == '__main__':
     s = Stack()
